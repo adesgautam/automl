@@ -1,0 +1,5 @@
+num_classes: 5
+var_freeze_expr: '(efficientnet|fpn_cells|resample_p6)'
+label_map: {1: Arduino_Nano, 2: ESP8266, 3: Heltec_ESP32_Lora, 4: Raspberry_Pi_3}
+learning_rate: 0.0001
+lr_warmup_init: 0.00001
